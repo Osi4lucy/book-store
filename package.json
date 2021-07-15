@@ -1,0 +1,25 @@
+{
+  "name": "book-store-app",
+  "version": "1.0.0",
+  "description": "exams books",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "cross-env NODE_ENV=development nodemon server.js"
+  },
+  "author": "Osilamah Solomon Imhomoh",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^5.13.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
